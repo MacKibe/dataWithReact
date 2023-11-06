@@ -6,7 +6,7 @@ export default function Home() {
     const documents = {
         "pk": 1,
         "name": "COPIES Title - deeds OTHERS/1/MOHAMOOD MOHAMED EMAN/254.2",
-        "imag": 
+        "images": 
         [
             {
                 "num": "1",
@@ -41,6 +41,7 @@ export default function Home() {
         <>
             {/* We pass our data to our component */}
             <ObjectData document_data={documents}/>
+            <></>
         </>
     );
  }

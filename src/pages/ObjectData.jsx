@@ -15,12 +15,13 @@ const ObjectData = ({document_data}) => {
             <h3>Person: {document_data.transcrption.person}</h3>
             <h2>Images</h2>
             <ul>
-                {document_data.imag.forEach((image, index) => {
+                {Object.values(document_data.images).map((images, index) => 
                     <li key={index}>
-                        <p>Image Number: {image.num}</p>
-                        <p>Image Name: {image.name}</p>
+                        <img src={images.url} alt=""/>
+                        <p>Image Number: {images.num}</p>
+                        <p>Image Name: {images.name}</p>
                     </li>
-                })}
+                )}
             </ul>
         </div>
     );
