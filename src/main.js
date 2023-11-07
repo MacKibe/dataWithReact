@@ -2,7 +2,6 @@ import React from 'react';
 // 
 // This renders the application to the broswer.
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
