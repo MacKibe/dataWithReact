@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* images styling */
 
 img {
-  width: 10%;
+  width: 100%;
+  border: 2px solid black;
+}
+ul {
+    display: flex;
 }
 li {
     list-style: none;
+    background-color: aliceblue;
+    margin-inline: 2%;
+    text-align: center;
 }

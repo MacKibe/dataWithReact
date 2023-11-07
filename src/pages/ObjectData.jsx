@@ -17,9 +17,8 @@ const ObjectData = ({document_data}) => {
             <ul>
                 {Object.values(document_data.images).map((images, index) => 
                     <li key={index}>
+                        <p>Page {images.num}</p>
                         <img src={images.url} alt=""/>
-                        <p>Image Number: {images.num}</p>
-                        <p>Image Name: {images.name}</p>
                     </li>
                 )}
             </ul>
