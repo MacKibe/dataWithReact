@@ -37,11 +37,11 @@ export default function Home() {
             "person": "MOHAMOOD MOHAMED EMAN"
         }
     };
+    
     return (
         <>
-            {/* We pass our data to our component */}
+            {/* Pass our data to our component */}
             <ObjectData document_data={documents}/>
-            <></>
         </>
     );
  }
